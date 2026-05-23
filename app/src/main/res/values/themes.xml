@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Spark" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#000000</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#000000</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorAccent">#000000</item>
+        <item name="android:colorEdgeEffect">#CCCCCC</item>
+        <item name="colorControlHighlight">#22000000</item>
+        <item name="colorControlActivated">#000000</item>
+        <item name="android:textColorHighlight">#33000000</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="colorSurface">@android:color/white</item>
+        <item name="colorSurfaceVariant">@android:color/white</item>
+    </style>
+
+    <style name="Theme.Spark" parent="Base.Theme.Spark" />
+
+    <style name="Theme.Spark.NoActionBar" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">#000000</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#000000</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorAccent">#000000</item>
+        <item name="android:colorEdgeEffect">#CCCCCC</item>
+        <item name="colorControlHighlight">#22000000</item>
+        <item name="colorControlActivated">#000000</item>
+        <item name="android:textColorHighlight">#33000000</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="colorSurface">@android:color/white</item>
+        <item name="colorSurfaceVariant">@android:color/white</item>
+    </style>
+
+</resources>

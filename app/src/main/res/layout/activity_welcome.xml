@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Grey Blob (Middle Left) -->
+
+    <!-- Quote text inside grey blob -->
+
+    <!-- Black Blob (Top Left) -->
+    <ImageView
+        android:id="@+id/blobGrey"
+        android:layout_width="450dp"
+        android:layout_height="450dp"
+        android:layout_marginStart="-180dp"
+        android:layout_marginTop="-30dp"
+        android:src="@drawable/blob_grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.536" />
+
+    <TextView
+        android:id="@+id/welcomeQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:lineSpacingExtra="4dp"
+        android:text="Capture your fleeting ideas\nbefore they vanish."
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.517" />
+
+    <ImageView
+        android:id="@+id/blobBlack"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:src="@drawable/blob_black"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="-120dp"
+        android:elevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- White Spark text inside black blob -->
+    <TextView
+        android:id="@+id/welcomeTitleNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spark"
+        android:textColor="#FFFFFF"
+        android:textSize="56sp"
+        android:textStyle="bold"
+        android:elevation="4dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Slider Container -->
+    <FrameLayout
+        android:id="@+id/sliderContainer"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/slider_track_bg"
+        android:clipChildren="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/sliderText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swipe to ignite →"
+            android:textColor="#999999"
+            android:textSize="16sp"
+            android:layout_gravity="center" />
+
+        <FrameLayout
+            android:id="@+id/sliderFill"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/slider_fill_bg"
+            android:clipChildren="true"
+            android:clipToPadding="true">
+            
+            <TextView
+                android:id="@+id/sliderFillText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spark"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_gravity="center" />
+                
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/sliderThumb"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/slider_thumb_circle"
+            android:layout_gravity="start|center_vertical" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
