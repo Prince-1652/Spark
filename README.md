@@ -21,7 +21,7 @@ You can download and install the latest version of Spark directly from the relea
 
 [Download the latest release here](https://github.com/Prince-1652/Spark/releases)
 
-Once downloaded, open the APK file on your Android device to install the application. Make sure to allow installations from unknown sources if prompted by your device settings
+Once downloaded, open the APK file on your Android device to install the application. Make sure to allow installations from unknown sources if prompted by your device settings.
 
 ## Development Status & Feedback
 Please note that Spark is an active work in progress and is not yet fully completed. Future updates will introduce even more features, optimizations, and refinements to elevate your brainstorming experience.
