@@ -26,4 +26,4 @@ Once downloaded, open the APK file on your Android device to install the applica
 ## Development Status & Feedback
 Please note that Spark is an active work in progress and is not yet fully completed. Future updates will introduce even more features, optimizations, and refinements to elevate your brainstorming experience
 
-If you encounter any bugs, glitches, or have suggestions for new features, please report them in the [Issues](https://github.com/Prince-1652/Spark/issues) section of this repository
+If you encounter any bugs, glitches, or have suggestions for new features, please report them in the [Issues](https://github.com/Prince-1652/Spark/issues) section of this repository.
